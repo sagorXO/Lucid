@@ -1,0 +1,199 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, :hover{
+	text-decoration: none;
+}
+
+
+.title{
+	width: 100%;
+	padding: 0px 0px 40px;
+}
+.title h6{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #008ed6;
+	letter-spacing: 2px;
+	margin-bottom: 0px;
+}
+.title h1{
+	font-size: 52px;
+	font-weight: 600;
+	color: #000;
+}
+
+
+.header{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+
+.header .bg-light {
+	background-color: transparent; !important;
+}
+.header .navbar-light .navbar-nav .nav-link.active, .header .navbar-light .navbar-nav .show>,.nav-link {
+	color: #fff;
+	background: url("../images/mborder.png") center bottom no-repeat;
+	background-size: auto;
+}
+.header .navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 15px;
+}
+.header .navbar-light .navbar-nav .nav-link:hover , .header .navbar-light .navbar-nav .nav-link:focus{
+	color: #08c;
+	background: url("../images/mborder.png") center bottom no-repeat;
+	background-size: auto;
+}
+.banner{
+	width: 100%;
+	padding: 100px 0px;
+}
+.inner-banner{
+	width: 60%;
+}
+.inner-banner h6{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #008ed6;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+.inner-banner h1{
+	font-size: 52px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.inner-banner p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #777;
+	margin-bottom: 20px;
+}
+.inner-button{
+	width: 100%;
+	margin: 50px 0px 0px;
+}
+.inner-button .btn-primary{
+	padding: 15px 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	border-radius: 3px;
+	transition: .5s;
+	margin-right: 15px;
+}
+.inner-button .btn-primary:hover, .inner-button .btn-primary:focus{
+	color: #008ed6;
+	background: transparent;
+	border: 1px solid #008ed6;
+}
+
+.inner-button .btn-secondary{
+	padding: 15px 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	transition: .5s;
+}
+.inner-button .btn-secondary:hover, .inner-button .btn-secondary:focus{
+	color: #fff;
+	background: #008ed6;
+	border: 1px solid #008ed6;
+}
+
+
+.features{
+	width: 100%;
+	padding:  80px 0px;
+}
+.features .title{
+	text-align: center;
+}
+
+.inner-feature{
+	width: 100%;
+	padding: 30px 25px;
+	text-align: center;
+}
+.inner-feature .icon-box{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	margin: 0px auto 25px;
+	text-align: center;
+	border: 1px solid #eee;
+	border-radius: 100%;
+}
+.inner-feature h4{
+	font-size: 22px;
+	font-weight: 400;
+	color: #000;
+}
+.inner-feature p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #777;
+	padding: 0px 15px;
+}
+
+.about-long{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.about-long .title{
+	margin-bottom: 45px  0px 0px;
+	padding: 0px 0px 20px;
+}
+.about-long .title h1{
+	font-size: 42px;
+}
+.about-long p{
+	font-size: 16px;
+	line-height: 26px;
+	color: #777;
+}
+.about-long ul{
+	padding: 0px;
+	margin: 20px 0px 0px;
+}
+.about-long ul li img{
+	width: 13px;
+	height: 15px;
+	margin-right: 10px;
+}
+.about-long ul li{
+	list-style: none;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+	margin:  0px 0px 8px 0px;
+}
